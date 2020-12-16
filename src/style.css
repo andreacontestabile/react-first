@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f1f5f8;
+  color: #333;
+}
+
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 5rem auto;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+  margin: 0 calc(3.3333% / 2) 40px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
